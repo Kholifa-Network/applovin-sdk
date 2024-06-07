@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingVertical="20dp">
+
+        <Button
+            android:id="@+id/next_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:text="NEXT ACT"
+            android:textColor="#3C3C3C" />
+
+        <LinearLayout
+            android:id="@+id/banner_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E4E4E4"
+            android:minHeight="100dp"
+            android:orientation="vertical" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/banner_admob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:text="Admob"
+                    android:textColor="#3C3C3C" />
+
+                <Button
+                    android:id="@+id/banner_fan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:text="FAN"
+                    android:textColor="#3C3C3C" />
+
+                <Button
+                    android:id="@+id/banner_unity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:text="UNITY"
+                    android:textColor="#3C3C3C" />
+
+                <Button
+                    android:id="@+id/banner_ironsource"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:text="IRONSOURCE"
+                    android:textColor="#3C3C3C" />
+
+                <Button
+                    android:id="@+id/banner_applovin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:text="APPLOVIN MAX"
+                    android:textColor="#3C3C3C" />
+
+                <Button
+                    android:id="@+id/banner_applovin_disc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:text="APPLOVIN DISCOVERY"
+                    android:textColor="#3C3C3C" />
+
+                <Button
+                    android:id="@+id/banner_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:text="MANAGER"
+                    android:textColor="#3C3C3C" />
+
+                <Button
+                    android:id="@+id/banner_startapp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:text="STARTAPP"
+                    android:textColor="#3C3C3C" />
+
+                <Button
+                    android:id="@+id/banner_wortise"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:text="WORTISE"
+                    android:textColor="#3C3C3C" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/inters_all"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:text="Inters"
+                    android:textColor="#3C3C3C" />
+
+                <Button
+                    android:id="@+id/rewarded_all"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:text="REWARDED"
+                    android:textColor="#3C3C3C" />
+
+                <Button
+                    android:id="@+id/openapp_all"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackground"
+                    android:text="OPE APP"
+                    android:textColor="#3C3C3C" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

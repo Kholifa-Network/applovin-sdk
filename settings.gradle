@@ -1,0 +1,3 @@
+rootProject.name = "AppLovinAdsSdk"
+include ':demo'
+include ':library'
